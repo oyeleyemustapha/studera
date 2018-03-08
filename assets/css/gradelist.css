@@ -1,0 +1,36 @@
+@media print{
+	
+.btn{
+	display: none;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #000 !important;
+}
+}
+body{
+	font-family: 'Times New Roman';
+}
+.resultBG{
+	background: url('../img/background.png');
+	padding-top:1em; 
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 20px;
+}
+h2{
+	font-size: 15px;
+}
+h2 span{
+	font-weight: 600;
+}
+h3{
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.toggleEditscore, .alert-success{
+	display: none;
+}

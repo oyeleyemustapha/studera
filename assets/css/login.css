@@ -1,0 +1,242 @@
+@font-face {
+      font-family: "Nunito";
+      src: url('../font/Nunito.ttf') format("truetype");
+}
+
+/* start editing from here */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+
+img{max-width:100%;}
+/*end reset*/
+/*--login start here--*/
+ body{
+  font-family: 'Nunito', sans-serif;
+   font-size: 100%;
+  
+}
+
+body.b{
+     background:#516677; 
+}
+
+.login {
+  width: 18.05%;
+  background: #fff;
+  margin: 2em auto 0em;
+  text-align: center;
+  padding: 3em 3em 3em 3em;
+  position: relative;
+  border: 1px solid #BBB;
+  border-radius: 0px;
+}
+
+.login input[type="text"] {
+    font-family: 'Nunito', sans-serif;
+  font-size: 1.2em;
+  height: 30px;
+  padding: 10px 10px 7px 10px;
+  width: 93%;
+  color: #A8A8A8;
+  outline: none;
+  border: 1px solid #D3D3D3;
+  border-radius: 0px;
+  background: #f9f9f9;
+  margin: 0em 0em 1em 0em;
+  border-style: solid;
+  box-shadow: 0px 1px 1px #C5C4C4;
+}
+.login input[type="password"] {
+    font-family: 'Nunito', sans-serif;
+   height: 30px;
+  font-size: 1.2em;
+  padding: 7px 10px 7px 10px;
+  width:93%;
+  color: #A8A8A8;
+  outline: none;
+  border: 1px solid #D3D3D3;
+  border-radius: 4px;
+  background: #f9f9f9;
+  margin: 0em 0em 1.5em 0em;
+  border-style: solid;
+  box-shadow: 0px 1px 1px #C5C4C4;
+}
+.login h2 {
+  font-size: 1.8em;
+  color: #343434;
+  margin: 0em 0em 1em 0em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+
+
+/*---*/
+.send {
+  margin: auto 0em;
+}
+.login input[type="submit"] {
+  width: 100%;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  height: 60px;
+  padding:7px 20px 7px 20px;
+  outline: none;
+  margin-top: 0em;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #2D424D; 
+
+}
+.login input[type="submit"]:hover{
+  
+background: #2E4553; 
+transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+}
+
+
+@media(max-width:1600px){
+.login {
+  width: 19%; 
+}
+
+
+}
+@media(max-width:1440px){
+.login {
+  width: 21.05%;
+}
+
+}
+@media(max-width:1366px){
+.login {
+  width: 22.2%;
+}
+
+}
+@media(max-width:1280px){
+.login {
+  width: 23.7%;
+}
+  
+}
+@media(max-width:1024px){
+.login {
+  width: 29.7%;
+}
+ 
+}
+@media(max-width:768px){
+.login {
+  width: 39.5%;
+}
+
+}
+@media(max-width:736px){
+.login {
+  width: 42.2%;
+}
+
+}
+@media(max-width:667px){
+.login {
+  width: 46.65%;
+}
+
+}
+@media(max-width:640px){
+.login {
+  width: 47.6%;
+} 
+
+}
+@media(max-width:600px){
+.login {
+  width:52.1%;
+} 
+
+}
+@media(max-width:568px){
+.login {
+  width: 55%;
+}
+
+}
+@media(max-width:480px){
+
+.login-bottom {
+  width: 73%;
+}
+.login {
+  width: 66.4%;
+  padding: 2em 2em 2em 2em;
+}
+.login h2 {
+  font-size: 1.2em;
+}
+
+
+.login input[type="submit"] {
+  margin-top: 0.5em;
+  padding: 5px 12px 5px 12px;
+}
+}
+@media(max-width:414px){
+
+.login {
+  width: 64.4%;
+}
+
+}
+
+@media(max-width:320px){
+
+.login {
+  width: 67%;
+  margin: 1.3em auto 0em;
+}
+
+.login h2 {
+  font-size: 1.05em;
+}
+
+.login input[type="text"] {
+  font-size: 0.9em;
+  width: 90%;
+  padding: 5px 10px 5px 10px;
+}
+.login input[type="password"] {
+  font-size: 0.9em;
+  width: 90%;
+  padding: 5px 10px 5px 10px;
+}
+
+
+}
+
+.error{
+  width: 100%;
+  margin: auto 0em;
+  background: #fff;
+  min-height: 30px; 
+  padding-top: 1em;
+  padding-bottom: 0.45em;
+
+}
+
+.error h3{
+  color: #1A242F;
+  text-align: center;
+  font-family: 'Nunito';
+  font-weight: 600;
+  text-transform: uppercase;
+}
